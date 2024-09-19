@@ -167,6 +167,7 @@ Alur ini membantu menjaga agar kolaborasi dan pengembangan tetap teratur, baik s
 ## Tambahan
 
 <p>Jika Anda ingin mengubah informasi committer juga, Anda harus mengatur informasi committer sebelum melakukan amend:</p>
-```
+
+```bash
 GIT_COMMITTER_NAME="Nama" GIT_COMMITTER_EMAIL="email_baru@example.com" git commit --amend --author="Nama <email_baru@example.com>"
 ```
